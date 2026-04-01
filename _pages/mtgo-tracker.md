@@ -1,12 +1,12 @@
 ---
 layout: single
-toc: true
 title: "Vintage Data API"
 sitemap: true
 permalink: /mtgo-tracker/
 author_profile: true
 ---
 
+{% include toc %}
 <span class="image main"><img src="_images/pic22.jpg" alt="" style="border: 3px solid black;" /></span>
 
 # Overview

@@ -1,12 +1,12 @@
 ---
 layout: splash
-toc: true
 title: "Mox Data"
 sitemap: false
 permalink: /mox-data/
 author_profile: false
 ---
 
+{% include toc %}
 <span class="image main"><img src="_images/pic33.jpg" alt="" style="border: 3px solid black;" /></span>
 
 <p>Mox Data is a cloud-based data ingestion tool used to process raw data for Magic: the Gathering Online.</p>
