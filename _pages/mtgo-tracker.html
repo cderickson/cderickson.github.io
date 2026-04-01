@@ -2,14 +2,15 @@
 layout: single
 toc: true
 title: "Vintage Data API"
-sitemap: false
+sitemap: true
 permalink: /mtgo-tracker/
 author_profile: true
 ---
 
 <span class="image main"><img src="_images/pic22.jpg" alt="" style="border: 3px solid black;" /></span>
 
-<h2>Overview</h2>
+# Overview
+
 <p>MTGO-Tracker is an <strong>analytics tool</strong> used to process raw data for Magic: the Gathering Online. Players can import and parse log files created during online play and store resulting information into a local database for self-analysis.</p>
 <p>See <strong><a href="https://github.com/cderickson/MTGO-Tracker">GitHub Repository</a></strong>.</p>
 
@@ -29,7 +30,8 @@ author_profile: true
         style="height: 100%; width: 100%; object-fit: cover; border: 3px solid black;" /></span>
 </div>
 
-<h2>Limitations</h2>
+## Limitations
+
 <p><b>Importing</b>: Some data (e.g. Deck Names, Match Format) cannot be read from GameLog files explicitly. These columns import as NA by default and are input manually by the user.</p>
 <p><b>Deck Names</b>: Included is a tool to set best guess deck names by comparing card data with MTG Goldfish decklists, but this is not always accurate. Card data is saved for every match to assist with data entry for old matches.</p>
 <p><b>Outdated</b> GameLogs: My test data includes my own personal data from January 2021 to current. Older files may have been formatted differently and may not import correctly. (For example, I know formatting changed when the London Mulligan was implemented in July 2019)</p>

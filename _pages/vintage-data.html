@@ -12,7 +12,8 @@ author_profile: false
 <p>This project is an ETL (Extract, Transform, Load) pipeline designed to process match results for Vintage tournaments on Magic Online (MTGO). Data is processed, loaded, and made available to users via API.</p>
 <p>See <strong><a href="https://github.com/cderickson/API.VintageData.IO">GitHub Repository</a></strong>.</p>
 
-<h2>Process</h2>
+# Process
+
 <ul>
     <li><strong>Extract</strong> data from a publicly maintained Google Sheet.</li>
     <li><strong>Clean & Transform</strong> tournament results, matchups, and deck information.</li>
@@ -23,10 +24,12 @@ author_profile: false
 
 <p>The ETL code is stored as <b>Python</b> scripts and scheduled to run weekly using <b>cron</b> on an <b>EC2 instance</b>. These scripts pull data from a public Google Sheet, clean and transform it, and then load it into a <b>PostgreSQL</b> database hosted on <b>Amazon RDS</b>.</p>
 
-<h2>Data Source</h2>								
+# Data Source		
+
 <p><strong><a href="https://docs.google.com/spreadsheets/d/1wxR3iYna86qrdViwHjUPzHuw6bCNeMLb72M25hpUHYk/edit?gid=1611466830#gid=1611466830">MTGO Vintage Metagame Data</a></strong>: Public Google Sheet with community-collated tournament results, matchups, and deck archetypes.</p>
 
-<h2>Architecture</h2>
+# Architecture
+
 <p>This project is deployed in <strong>AWS</strong> using an <strong>EC2</strong> instance and <strong>AWS RDS</strong> (<strong>PostgreSQL</strong>) database.</p>
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-8 col-12-medium">
