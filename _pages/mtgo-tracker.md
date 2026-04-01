@@ -1,9 +1,9 @@
 ---
-layout: single
-title: "Vintage Data API"
-sitemap: true
+layout: splash
+title: "MTGO-Tracker"
+sitemap: false
 permalink: /mtgo-tracker/
-author_profile: true
+author_profile: false
 ---
 
 {% include toc %}

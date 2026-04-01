@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "Vintage Data API"
 sitemap: false
 permalink: /vintage-data/
