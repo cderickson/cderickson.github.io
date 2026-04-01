@@ -8,23 +8,20 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Mox Data"
+    url: /mox-data/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Vintage Data API"
+    url: /vintage-data/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "MTGO-Tracker"
+    url: /mtgo-tracker/    
     
   - title: "Portfolio"
     url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
+           
+  - title: "Resume"
+    url: /resume/
     
   # - title: "CV"
   #   url: /cv-json/

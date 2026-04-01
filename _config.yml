@@ -70,10 +70,12 @@ author:
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
+  reddit           : "SundodgerLOL"
   soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
+  twitch           : # Username
   twitter          : "Sundodger04"
   vine             : # Username
   weibo            : # Username
@@ -125,7 +127,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
