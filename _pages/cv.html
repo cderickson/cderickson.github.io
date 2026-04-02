@@ -1,0 +1,139 @@
+---
+layout: archive
+title: "Resume"
+permalink: /resume/
+author_profile: true
+redirect_from:
+  - /resume
+  - /
+---
+
+<style>
+  .cv-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .cv-header h2,
+  .cv-header h3,
+  .cv-header h4 {
+    margin: 0.25rem 0;
+  }
+  .cv-section-header {
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.35rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .cv-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .cv-row .left {
+    text-align: left;
+  }
+  .cv-row .right {
+    text-align: right;
+    white-space: nowrap;
+  }
+</style>
+
+<div class="cv-header">
+  <h2>Chris Erickson</h2>
+  <h3>Data Systems Engineer | Orange County, CA</h3>
+  <h4><a href="files/Erickson-RESUME.pdf">Resume PDF</a> | <a href="https://cderickson.github.io">Portfolio</a> | <a href="https://github.com/cderickson">GitHub</a> | <a href="https://www.linkedin.com/in/cderickson04/">LinkedIn</a></h4>
+</div>
+
+<h2 class="cv-section-header">Education</h2>
+
+<div class="cv-row">
+  <span class="left">University of California, Berkeley</span>
+  <span class="right">Current</span>
+</div>
+<div class="cv-row">
+  <span class="left">MS, Information and Data Science</span>
+  <span class="right">Berkeley, CA</span>
+</div>
+
+<div class="cv-row">
+  <span class="left">University of Washington, Bothell</span>
+  <span class="right">January 2016</span>
+</div>
+<div class="cv-row">
+  <span class="left">BA, Management Information Systems</span>
+  <span class="right">Bothell, WA</span>
+</div>
+
+<div class="cv-row">
+  <span class="left">Western Washington University</span>
+  <span class="right">June 2013</span>
+</div>
+<div class="cv-row">
+  <span class="left">BS, Manufacturing Engineering Technology</span>
+  <span class="right">Bellingham, WA</span>
+</div>
+
+<h2 class="cv-section-header">Work Experience</h2>
+
+<div class="cv-row">
+  <span class="left"><strong>Full-Stack Data Scientist</strong> | The Boeing Company</span>
+  <span class="right">Mar 2026 - Present</span>
+</div>
+<div class="cv-row">
+  <span class="left">Core Analytics</span>
+  <span class="right">Seal Beach, CA</span>
+</div>
+
+<div class="cv-row">
+  <span class="left"><strong>Data Systems Engineer</strong>, 747/767/OOP Technical Lead | The Boeing Company</span>
+  <span class="right">Apr 2023 - Mar 2026</span>
+</div>
+<div class="cv-row">
+  <span class="left">Reliability Maintainability &amp; Data Analytics</span>
+  <span class="right">Seal Beach, CA</span>
+</div>
+
+- Monitored airline reliability data feeds using SQL, Power BI, and Tableau to validate data quality and integrity.
+- Built and automated Python, SQL workflows that streamlined reporting processes, reducing manual effort and accelerating delivery of analytics.
+- Developed internal tools and applications to support fleet reliability analytics.
+- Integrated AI/LLMs into our data ingestion process allowing us to handle non-English maintenance text.
+- Represented Boeing at aviation industry meetings and conferences, facilitating collaboration with airline reliability teams to enhance the safety and quality of Boeing airplanes.
+
+<div class="cv-row">
+  <span class="left"><strong>Manufacturing Engineer</strong> | The Boeing Company</span>
+  <span class="right">Sep 2016 - Nov 2020</span>
+</div>
+<div class="cv-row">
+  <span class="left">787 Engines, 767/767-2C Tanker Fuel Systems</span>
+  <span class="right">Everett, CA</span>
+</div>
+
+- Maintained and improved build plan architecture for 787 Thrust Reversers and 767/767-2C Tanker Fuel Systems by incorporating engineering changes and leading process improvement projects.
+- Designed and tested 3d-printed tooling used during assembly and installation.
+ 
+<h2 class="cv-section-header">Projects</h2>
+
+<strong>Mox-Data.com</strong> | [Link](https://mox-data.com) | [GitHub](https://github.com/cderickson/Mox-Data.com)
+Aug 2025 - Present
+
+- Developed a full-stack web application using Python (Flask), HTML, JavaScript, and CSS to provide interactive dashboards and data management features for Magic: the Gathering Online (MTGO) players.
+- Built ETL workflow allowing players to upload and process raw gameplay files, transform them into structured data, and enhance records through in-app tools.
+- Deployed application to AWS using Docker (ECR) containers with PostgreSQL (RDS) for relational storage, Amazon S3 for file management, and Redis + Celery for distributed background job processing.
+- Utilized Git/GitHub for version control and project management.
+
+
+<strong>API.VintageData.IO</strong> | [Link](https://cderickson.github.io/vintage-data/) | [GitHub](https://github.com/cderickson/API.VintageData.IO)
+Feb 2025 - Present
+
+- Developed an ETL pipeline using Python to extract community-collated match result data from MTGO tournaments, clean and load it into a PostgreSQL (AWS RDS) database.
+- Deployed a REST API with Flask in AWS EC2, enabling users to query event and match data.
+- Automated weekly data processing and monitoring via cron jobs and API logging.
+- Designed and built Power BI dashboard to visualize metagame trends, event histories, and matchup statistics.
+
+<strong>MTGO-Tracker</strong> | [Link](https://cderickson.github.io/mtgo-tracker/) | [GitHub](https://github.com/cderickson/MTGO-Tracker)
+Dec 2021 - Oct 2023
+
+- Windows application and analytics tool developed in Python (tkinter) used to process raw data for MTGO.
+- Imports and parses log files created during online play and stores resulting information in a local database for self-analysis.
+- Built-in dashboards allow users to make more informed in-game decisions.
+- 1600+ total downloads.
