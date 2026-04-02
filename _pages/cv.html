@@ -36,6 +36,13 @@ redirect_from:
     text-align: right;
     white-space: nowrap;
   }
+  .page__content p {
+    margin-top: 0.35rem;
+  }
+  .work-entry + .work-entry,
+  .project-entry + .project-entry {
+    margin-top: 0.35rem;
+  }
 </style>
 
 <div class="cv-header">
@@ -47,8 +54,8 @@ redirect_from:
 <h2 class="cv-section-header">Education</h2>
 
 <div class="cv-row">
-  <span class="left">University of California, Berkeley</span>
-  <span class="right">Current</span>
+  <span class="left"><strong>University of California, Berkeley</strong></span>
+  <span class="right"><strong>In Progress</strong></span>
 </div>
 <div class="cv-row">
   <span class="left">MS, Information and Data Science</span>
@@ -56,8 +63,8 @@ redirect_from:
 </div>
 
 <div class="cv-row">
-  <span class="left">University of Washington, Bothell</span>
-  <span class="right">January 2016</span>
+  <span class="left"><strong>University of Washington, Bothell</strong></span>
+  <span class="right"><strong>January 2016</strong></span>
 </div>
 <div class="cv-row">
   <span class="left">BA, Management Information Systems</span>
@@ -65,8 +72,8 @@ redirect_from:
 </div>
 
 <div class="cv-row">
-  <span class="left">Western Washington University</span>
-  <span class="right">June 2013</span>
+  <span class="left"><strong>Western Washington University</strong></span>
+  <span class="right"><strong>June 2013</strong></span>
 </div>
 <div class="cv-row">
   <span class="left">BS, Manufacturing Engineering Technology</span>
@@ -75,65 +82,86 @@ redirect_from:
 
 <h2 class="cv-section-header">Work Experience</h2>
 
-<div class="cv-row">
-  <span class="left"><strong>Full-Stack Data Scientist</strong> | The Boeing Company</span>
-  <span class="right">Mar 2026 - Present</span>
-</div>
-<div class="cv-row">
-  <span class="left">Core Analytics</span>
-  <span class="right">Seal Beach, CA</span>
-</div>
-
-<div class="cv-row">
-  <span class="left"><strong>Data Systems Engineer</strong>, 747/767/OOP Technical Lead | The Boeing Company</span>
-  <span class="right">Apr 2023 - Mar 2026</span>
-</div>
-<div class="cv-row">
-  <span class="left">Reliability Maintainability &amp; Data Analytics</span>
-  <span class="right">Seal Beach, CA</span>
+<div class="work-entry">
+  <div class="cv-row">
+    <span class="left"><strong>Full-Stack Data Scientist</strong> | The Boeing Company</span>
+    <span class="right"><strong>Mar 2026 - Present</strong></span>
+  </div>
+  <div class="cv-row">
+    <span class="left">Core Analytics</span>
+    <span class="right">Seal Beach, CA</span>
+  </div>
 </div>
 
-- Monitored airline reliability data feeds using SQL, Power BI, and Tableau to validate data quality and integrity.
-- Built and automated Python, SQL workflows that streamlined reporting processes, reducing manual effort and accelerating delivery of analytics.
-- Developed internal tools and applications to support fleet reliability analytics.
-- Integrated AI/LLMs into our data ingestion process allowing us to handle non-English maintenance text.
-- Represented Boeing at aviation industry meetings and conferences, facilitating collaboration with airline reliability teams to enhance the safety and quality of Boeing airplanes.
+<div class="work-entry">
+  <div class="cv-row">
+    <span class="left"><strong>Data Systems Engineer</strong>, 747/767/OOP Technical Lead | The Boeing Company</span>
+    <span class="right"><strong>Apr 2023 - Mar 2026</strong></span>
+  </div>
+  <div class="cv-row">
+    <span class="left">Reliability Maintainability &amp; Data Analytics</span>
+    <span class="right">Seal Beach, CA</span>
+  </div>
 
-<div class="cv-row">
-  <span class="left"><strong>Manufacturing Engineer</strong> | The Boeing Company</span>
-  <span class="right">Sep 2016 - Nov 2020</span>
-</div>
-<div class="cv-row">
-  <span class="left">787 Engines, 767/767-2C Tanker Fuel Systems</span>
-  <span class="right">Everett, CA</span>
+  <p>
+  - Monitored airline reliability data feeds using SQL, Power BI, and Tableau to validate data quality and integrity.<br>
+  - Built and automated Python, SQL workflows that streamlined reporting processes, reducing manual effort and accelerating delivery of analytics.<br>
+  - Developed internal tools and applications to support fleet reliability analytics.<br>
+  - Integrated AI/LLMs into our data ingestion process allowing us to handle non-English maintenance text.<br>
+  - Represented Boeing at aviation industry meetings and conferences, facilitating collaboration with airline reliability teams to enhance the safety and quality of Boeing airplanes.
+  </p>
 </div>
 
-- Maintained and improved build plan architecture for 787 Thrust Reversers and 767/767-2C Tanker Fuel Systems by incorporating engineering changes and leading process improvement projects.
-- Designed and tested 3d-printed tooling used during assembly and installation.
- 
+<div class="work-entry">
+  <div class="cv-row">
+    <span class="left"><strong>Manufacturing Engineer</strong> | The Boeing Company</span>
+    <span class="right"><strong>Sep 2016 - Nov 2020</strong></span>
+  </div>
+  <div class="cv-row">
+    <span class="left">787 Engines, 767/767-2C Tanker Fuel Systems</span>
+    <span class="right">Everett, CA</span>
+  </div>
+
+  <p>
+  - Maintained and improved build plan architecture for 787 Thrust Reversers and 767/767-2C Tanker Fuel Systems by incorporating engineering changes and leading process improvement projects.
+  - Designed and tested 3d-printed tooling used during assembly and installation.
+  </p>
+</div>
+
 <h2 class="cv-section-header">Projects</h2>
 
-<strong>Mox-Data.com</strong> | [Link](https://mox-data.com) | [GitHub](https://github.com/cderickson/Mox-Data.com)
-Aug 2025 - Present
+<div class="project-entry">
+  <strong>Mox-Data.com</strong> | [Link](https://mox-data.com) | [GitHub](https://github.com/cderickson/Mox-Data.com)
+  Aug 2025 - Present
 
-- Developed a full-stack web application using Python (Flask), HTML, JavaScript, and CSS to provide interactive dashboards and data management features for Magic: the Gathering Online (MTGO) players.
-- Built ETL workflow allowing players to upload and process raw gameplay files, transform them into structured data, and enhance records through in-app tools.
-- Deployed application to AWS using Docker (ECR) containers with PostgreSQL (RDS) for relational storage, Amazon S3 for file management, and Redis + Celery for distributed background job processing.
-- Utilized Git/GitHub for version control and project management.
+  <p>
+  - Developed a full-stack web application using Python (Flask), HTML, JavaScript, and CSS to provide interactive dashboards and data management features for Magic: the Gathering Online (MTGO) players.
+  - Built ETL workflow allowing players to upload and process raw gameplay files, transform them into structured data, and enhance records through in-app tools.
+  - Deployed application to AWS using Docker (ECR) containers with PostgreSQL (RDS) for relational storage, Amazon S3 for file management, and Redis + Celery for distributed background job processing.
+  - Utilized Git/GitHub for version control and project management.
+  </p>
+</div>
 
+<div class="project-entry">
+  <strong>API.VintageData.IO</strong> | [Link](https://cderickson.github.io/vintage-data/) | [GitHub](https://github.com/cderickson/API.VintageData.IO)
+  Feb 2025 - Present
 
-<strong>API.VintageData.IO</strong> | [Link](https://cderickson.github.io/vintage-data/) | [GitHub](https://github.com/cderickson/API.VintageData.IO)
-Feb 2025 - Present
+  <p>
+  - Developed an ETL pipeline using Python to extract community-collated match result data from MTGO tournaments, clean and load it into a PostgreSQL (AWS RDS) database.
+  - Deployed a REST API with Flask in AWS EC2, enabling users to query event and match data.
+  - Automated weekly data processing and monitoring via cron jobs and API logging.
+  - Designed and built Power BI dashboard to visualize metagame trends, event histories, and matchup statistics.
+  </p>
+</div>
 
-- Developed an ETL pipeline using Python to extract community-collated match result data from MTGO tournaments, clean and load it into a PostgreSQL (AWS RDS) database.
-- Deployed a REST API with Flask in AWS EC2, enabling users to query event and match data.
-- Automated weekly data processing and monitoring via cron jobs and API logging.
-- Designed and built Power BI dashboard to visualize metagame trends, event histories, and matchup statistics.
+<div class="project-entry">
+  <strong>MTGO-Tracker</strong> | [Link](https://cderickson.github.io/mtgo-tracker/) | [GitHub](https://github.com/cderickson/MTGO-Tracker)
+  Dec 2021 - Oct 2023
 
-<strong>MTGO-Tracker</strong> | [Link](https://cderickson.github.io/mtgo-tracker/) | [GitHub](https://github.com/cderickson/MTGO-Tracker)
-Dec 2021 - Oct 2023
-
-- Windows application and analytics tool developed in Python (tkinter) used to process raw data for MTGO.
-- Imports and parses log files created during online play and stores resulting information in a local database for self-analysis.
-- Built-in dashboards allow users to make more informed in-game decisions.
-- 1600+ total downloads.
+  <p>
+  - Windows application and analytics tool developed in Python (tkinter) used to process raw data for MTGO.
+  - Imports and parses log files created during online play and stores resulting information in a local database for self-analysis.
+  - Built-in dashboards allow users to make more informed in-game decisions.
+  - 1600+ total downloads.
+  </p>
+</div>
