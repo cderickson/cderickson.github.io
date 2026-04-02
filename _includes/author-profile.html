@@ -176,7 +176,11 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}    
+      
+      {% if author.resume %}
+      <li><a href="../files/{{ author.resume }}"><i class="fab fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>Resume</a></li>
+      {% endif %}   
     </ul>
   </div>
 </div>
