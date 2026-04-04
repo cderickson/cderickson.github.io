@@ -17,8 +17,8 @@ main:
   - title: "MTGO-Tracker"
     url: /mtgo-tracker/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
            
   - title: "Resume"
     url: /resume/
@@ -26,5 +26,5 @@ main:
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/

@@ -9,6 +9,7 @@ author_profile: false
 {% unless page.header.overlay_color or page.header.overlay_image %}
 <h1 class="page__title">{{ page.title }}</h1>
 {% endunless %}
+<br>
 {% include toc %}
 
 <p>MTGO-Tracker is an <strong>analytics tool</strong> used to process raw data for Magic: the Gathering Online. Players can import and parse log files created during online play and store resulting information into a local database for self-analysis.</p>
