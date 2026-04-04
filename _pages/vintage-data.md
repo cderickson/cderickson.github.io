@@ -19,7 +19,6 @@ author_profile: false
 - <strong>Load</strong> structured data into a PostgreSQL database.
 - <strong>Deploy</strong> a public REST API for querying match results and event information.
 - <strong>Present</strong> data to users through dashboards visualizing metagame trends, player leaderboards, and deck matchup statistics.
-{: .dash-list}
 
 <p>The ETL code is stored as <b>Python</b> scripts and scheduled to run weekly using <b>cron</b> on an <b>EC2 instance</b>. These scripts pull data from a public Google Sheet, clean and transform it, and then load it into a <b>PostgreSQL</b> database hosted on <b>Amazon RDS</b>.</p>
 
