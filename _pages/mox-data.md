@@ -109,4 +109,4 @@ author_profile: false
 </div>
 <br>
 
-<p>See <strong><a href="data-dictionary/">Data Dictionary</a></strong> for feature definitions.</p>
+<p>See <strong><a href="https://mox-data.com/data-dictionary">Data Dictionary</a></strong> for feature definitions.</p>

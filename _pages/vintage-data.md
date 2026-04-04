@@ -104,7 +104,7 @@ author_profile: false
 </div>
 
 <br>
-<p>See <strong><a href="data-dictionary/">Data Dictionary</a></strong> for feature definitions.</p>
+<p>See <strong><a href="https://mox-data.com/vintage-data/data-dictionary">Data Dictionary</a></strong> for feature definitions.</p>
 
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-12 col-12-medium">
@@ -123,7 +123,7 @@ author_profile: false
 ## API Development
 
 <p>A <strong>REST API</strong> was developed using <strong>Flask</strong> and deployed using an <strong>EC2 instance</strong>, which is configured to serve requests through <strong>Nginx</strong> and <strong>Gunicorn</strong>. The API provides HTTP endpoints for querying processed match results and event data.</p>
-<p>See <strong><a href="api-documentation/">API Documentation</a></strong> for API Endpoint usage instructions.</p>
+<p>See <strong><a href="https://mox-data.com/vintage-data/api-documentation">API Documentation</a></strong> for API Endpoint usage instructions.</p>
 
 ## Dashboards
 

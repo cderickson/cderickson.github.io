@@ -43,7 +43,8 @@ author_profile: false
 <strong>Outdated GameLogs </strong>: 
 <p>My test data includes my own personal data from January 2021 to current. Older files may have been formatted differently and may not import correctly. (For example, I know formatting changed when the London Mulligan was implemented in July 2019)</p>
 
-<h2>Release History</h2>
+## Release History
+
 <strong>MTGO-Tracker-v.16 (Oct 2023)</strong> - <strong><a href="https://github.com/cderickson/MTGO-Tracker/releases/tag/v.16">Change Log</a></strong>, <b><a href="https://github.com/cderickson/MTGO-Tracker/releases/download/v.16/MTGO-Tracker-v.16.rar">Download</a></b><br>
 <strong>MTGO-Tracker-v.15</strong> - <strong><a href="https://github.com/cderickson/MTGO-Tracker/releases/tag/v.15">Change Log</a></strong><br>
 <strong>MTGO-Tracker-v.14</strong> - <strong><a href="https://github.com/cderickson/MTGO-Tracker/releases/tag/v.14">Change Log</a></strong><br>
