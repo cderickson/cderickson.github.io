@@ -361,6 +361,7 @@ tag_archive:
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
-  clippings: all
+  # "all" can break void tags like <link rel="stylesheet"> in some setups; keep layout compression without clippings.
+  clippings: []
   ignore:
     envs: development
