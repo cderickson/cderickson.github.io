@@ -5,6 +5,11 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
+{%- comment -%}
+  Dark palette: CSS variables under html[data-theme="dark"] in _sass/theme/*_dark.scss.
+  site.site_theme in _config.yml must stay a skin name (default, air, mint, …)—not "dark"—
+  or main.scss will import missing theme/dark_*.scss and the site CSS build will fail.
+{%- endcomment -%}
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme="dark">
   <head>
     {% include head.html %}

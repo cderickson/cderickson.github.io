@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+# Skin for SCSS imports (theme/{{ site_theme }}_light + _dark). Use default/air/mint/etc. — not "dark" (that breaks the CSS build). For dark colors, set data-theme on <html> (see _layouts/default.html) or JS.
+site_theme               : "default"
 title                    : "Portfolio"
 title_separator          : "-"
 name                     : &name "Chris Erickson"
