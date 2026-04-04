@@ -10,6 +10,7 @@ author_profile: false
 {% unless page.header.overlay_color or page.header.overlay_image %}
 <h1 class="page__title">{{ page.title }}</h1>
 {% endunless %}
+<br>
 {% include toc %}
 
 <p><strong>Mox Data</strong> is a cloud-based ingestion and analytics platform for Magic: The Gathering Online (MTGO). Players upload raw MTGO GameLog and DraftLog files which are then parsed into structured records, stored in PostgreSQL, and presented to users through interactive tables and dashboards. This application allows players to analyze their play-by-play data, a level of granularity which has not always been available.</p>
@@ -17,7 +18,6 @@ author_profile: false
 <p>This project builds on the original <strong><a href="https://github.com/cderickson/MTGO-Tracker">MTGO-Tracker</a></strong> application, incorporating many of the same workflows.</p>
 
 <p>See <strong><a href="https://github.com/cderickson/Mox-Data.com">GitHub repository</a></strong>.</p>
-<br>
 
 ## Process
 
@@ -109,5 +109,4 @@ author_profile: false
 </div>
 <br>
 
-<br>
 <p>See <strong><a href="data-dictionary/">Data Dictionary</a></strong> for feature definitions.</p>

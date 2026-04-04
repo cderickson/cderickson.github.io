@@ -9,6 +9,7 @@ author_profile: false
 {% unless page.header.overlay_color or page.header.overlay_image %}
 <h1 class="page__title">{{ page.title }}</h1>
 {% endunless %}
+<br>
 {% include toc %}
 
 <p>This project is an ETL (Extract, Transform, Load) pipeline designed to process match results for Vintage tournaments on Magic Online (MTGO). Data is processed, loaded, and made available to users via API and interactive dashboards.</p>
