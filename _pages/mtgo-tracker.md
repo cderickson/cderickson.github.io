@@ -28,7 +28,7 @@ author_profile: false
 <p>Built-in dashboards are included to view and track <strong>Match History (Overall or by Format)</strong>, <strong>Match History vs. Opponent</strong>, <strong>Match/Game Performance Data</strong>, <strong>Play Pattern Data</strong>, and <strong>Card Data</strong>.</p>
 <p>Generated tables can be <b>exported</b> to .csv or .xlsx to allow you to manipulate the data yourself, run your own queries and build your own visualizations.</p>
 <div style="text-align: center;">
-    <span class="image object"><img src="../images/mtgo-tracker.png" alt="MTGO-Tracker" 
+    <span class="image object"><img src="../images/mtgo-tracker.PNG" alt="MTGO-Tracker" 
         style="height: 100%; width: 100%; object-fit: cover; border: 3px solid black;" /></span>
 </div>
 
