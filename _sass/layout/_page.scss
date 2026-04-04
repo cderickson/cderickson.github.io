@@ -59,6 +59,24 @@
     font-size: 1em;
   }
 
+  /* optional: hyphen-style markers for Markdown unordered lists (see Kramdown `{: .dash-list}`) */
+  ul.dash-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+
+    > li {
+      position: relative;
+      padding-left: 1em;
+
+      &::before {
+        content: '\2013'; // en dash
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;

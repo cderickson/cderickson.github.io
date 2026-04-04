@@ -8,16 +8,18 @@ author_profile: false
 
 {% include toc %}
 
-<p>This project is an ETL (Extract, Transform, Load) pipeline designed to process match results for Vintage tournaments on Magic Online (MTGO). Data is processed, loaded, and made available to users via API.</p>
+<p>This project is an ETL (Extract, Transform, Load) pipeline designed to process match results for Vintage tournaments on Magic Online (MTGO). Data is processed, loaded, and made available to users via API and interactive dashboards.</p>
 <p>See <strong><a href="https://github.com/cderickson/API.VintageData.IO">GitHub Repository</a></strong>.</p>
+<br>
 
 ## Process
 
-- <strong>Extract</strong> data from a publicly maintained Google Sheet.</li>
-- <strong>Clean & Transform</strong> tournament results, matchups, and deck information.</li>
-- <strong>Load</strong> structured data into a PostgreSQL database.</li>
-- <strong>Deploy</strong> a public REST API for querying match results and event information.</li>
-- <strong>Present</strong> data to users through dashboards visualizing metagame trends, player leaderboards, and deck matchup statistics.</li>
+- <strong>Extract</strong> data from a publicly maintained Google Sheet.
+- <strong>Clean & Transform</strong> tournament results, matchups, and deck information.
+- <strong>Load</strong> structured data into a PostgreSQL database.
+- <strong>Deploy</strong> a public REST API for querying match results and event information.
+- <strong>Present</strong> data to users through dashboards visualizing metagame trends, player leaderboards, and deck matchup statistics.
+{: .dash-list}
 
 <p>The ETL code is stored as <b>Python</b> scripts and scheduled to run weekly using <b>cron</b> on an <b>EC2 instance</b>. These scripts pull data from a public Google Sheet, clean and transform it, and then load it into a <b>PostgreSQL</b> database hosted on <b>Amazon RDS</b>.</p>
 
@@ -30,7 +32,7 @@ author_profile: false
 <p>This project is deployed in <strong>AWS</strong> using an <strong>EC2</strong> instance and <strong>AWS RDS</strong> (<strong>PostgreSQL</strong>) database.</p>
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-8 col-12-medium">
-        <span class="image fit"><img src="../images/vintage-arch.png" alt="Vintage Architecture"
+        <span class="image fit"><img src="../images/vintage-arch.jpg" alt="Vintage Architecture"
             style="object-fit: cover; border: 3px solid black;" /></span>
     </div>
 </div>
@@ -103,7 +105,7 @@ author_profile: false
 
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-12 col-12-medium">
-        <span class="image fit"><img src="../images/vintage-erd.png" alt="Vintage ERD"
+        <span class="image fit"><img src="../images/vintage-erd.jpg" alt="Vintage ERD"
             style="object-fit: cover; border: 3px solid black;" /></span>
     </div>
 </div>
@@ -132,13 +134,6 @@ author_profile: false
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-12 col-12-medium">
         <span class="image fit"><img src="../images/vintage-dashboard.png" alt="Vintage Dashboards"
-            style="object-fit: cover; border: 3px solid black;" /></span>
-    </div>
-</div>
-<div class="row" style="justify-content: center; display: flex; align-items: center; text-align: center;">
-    <div class="col-8 col-12-medium">
-        <header class="major">
-            <h3 style="padding: 0; margin-bottom: 0">Power BI Dashboard (Page 1 of 4): Overall Metagame Trends</h3>
-        </header>
+            style="max-height: 600px; width: auto; max-width: 100%; height: auto; object-fit: contain; border: 3px solid black;" /></span>
     </div>
 </div>
