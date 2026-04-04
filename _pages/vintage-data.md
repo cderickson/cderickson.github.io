@@ -6,9 +6,9 @@ permalink: /vintage-data/
 author_profile: false
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
+{% unless page.header.overlay_color or page.header.overlay_image %}
+<h1 class="page__title">{{ page.title }}</h1>
+{% endunless %}
 {% include toc %}
 
 <p>This project is an ETL (Extract, Transform, Load) pipeline designed to process match results for Vintage tournaments on Magic Online (MTGO). Data is processed, loaded, and made available to users via API and interactive dashboards.</p>
