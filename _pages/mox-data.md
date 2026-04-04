@@ -35,7 +35,7 @@ author_profile: false
 
 ## Architecture
 
-<p>Mox Data is deployed on <strong>AWS</strong> using <strong>ECS</strong> for web and worker services, <strong>ECR</strong> for Docker container image deployment, <strong>Amazon RDS</strong> (<strong>PostgreSQL</strong>) database, <strong>S3</strong> for storage, and <strong>ElastiCache</strong> for Celery broker and result backend.</p>
+<p>Mox Data is deployed on <strong>AWS</strong> using <strong>ECS</strong> for web and worker services, <strong>ECR</strong> for Docker container image deployment, <strong>Amazon RDS</strong> (<strong>PostgreSQL</strong>) database, <strong>S3</strong> for storage, and <strong>Celery</strong> + <strong>Redis</strong> (<strong>ElastiCache</strong>) for distributed background job processing.</p>
 
 ## Database Schema
 
