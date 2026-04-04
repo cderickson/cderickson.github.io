@@ -54,8 +54,8 @@ author_profile: false
     <table style="margin: 0 auto;">
         <thead>
             <tr>
-                <th>Table Name</th>
-                <th>Description</th>
+                <th style="color: #000;">Table Name</th>
+                <th style="color: #000;">Description</th>
             </tr>
         </thead>
         <tbody>

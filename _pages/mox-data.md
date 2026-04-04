@@ -43,8 +43,8 @@ author_profile: false
     <table style="margin: 0 auto;">
         <thead>
             <tr>
-                <th>Table</th>
-                <th>Description</th>
+                <th style="color: #000;">Table</th>
+                <th style="color: #000;">Description</th>
             </tr>
         </thead>
         <tbody>
