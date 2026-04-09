@@ -127,12 +127,14 @@ author_profile: false
 
 ## Dashboards
 
-<p>These dashboards provide insights into the online Vintage metagame using our processed data. They include:</p>
+<p>Dashboards were created primarily using chartJS and provide insights into the online Vintage metagame using our processed data. They include:</p>
 
 - <strong>Overall Metagame Trends</strong> – High-level analysis of deck popularity and performance.
 - <strong>Event Explorer</strong> – Detailed view of individual tournament results.
 - <strong>Player Leaderboard</strong> – Rankings based on player performance across events.
 - <strong>Deck Matchup Heatmap</strong> – Visualization of win rates between different deck archetypes.
+
+<p>See the <strong><a href="https://mox-data.com/vintage-data">Vintage Dashboards</a></strong> page on the Mox Data platform.</p>
 
 <div class="row" style="justify-content: center; display: flex; align-items: center;">
     <div class="col-12 col-12-medium">
